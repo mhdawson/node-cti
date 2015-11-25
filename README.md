@@ -10,10 +10,15 @@ which allows you to easily dial/send commands to the phone.
 
 
 dial(number, resultHandler)        - dial a number
+
 sendDigits(digits, resultHandler)  - send digits in call in progress
+
 speaker(resultHandler)             - speaker on/off 
+
 line(line, resultHandler)          - go on/off hook with line selected
+
 soft(num, resultHandler)           - send softkey 
+
 sendKey(key, resultHandler)        - send key (use if key not covered by
                                                other options) 
 
