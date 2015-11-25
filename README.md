@@ -27,7 +27,7 @@ Example:
 
 <PRE>
 var http = require('http')
-var SendPhoneRequest = require('./SendPhoneRequest')
+var SendPhoneRequest = require('node-cti')
 
 var phoneRequest = new SendPhoneRequest({'hostname': 'myhost'}); 
 
