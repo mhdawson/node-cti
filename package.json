@@ -1,0 +1,24 @@
+{
+  "name": "node-cti",
+  "version": "1.0.0",
+  "description": "Node computer telephone integration for cisco phones ",
+  "main": "lib/SendPhoneCommand.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhdawson/node-cti.git"
+  },
+  "keywords": [
+    "cti",
+    "phone",
+    "voip"
+  ],
+  "author": "Michael Dawson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mhdawson/node-cti/issues"
+  },
+  "homepage": "https://github.com/mhdawson/node-cti#readme"
+}
