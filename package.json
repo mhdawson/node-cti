@@ -1,6 +1,6 @@
 {
   "name": "node-cti",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node computer telephone integration for cisco phones ",
   "main": "lib/SendPhoneRequest.js",
   "scripts": {
