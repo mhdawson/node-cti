@@ -2,7 +2,7 @@
   "name": "node-cti",
   "version": "1.0.0",
   "description": "Node computer telephone integration for cisco phones ",
-  "main": "lib/SendPhoneCommand.js",
+  "main": "lib/SendPhoneRequest.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
