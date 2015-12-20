@@ -23,13 +23,14 @@ which allows you to easily dial/send commands to the phone.
 
 resultHandler is called once the request completes
 
+This document provides more information on the specific keys that can be used with sendKey: [cisco programming guide](http://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/all_models/xsi/6_0/english/programming/guide/XSIbook.pdf)
+
 Example:
 
 <PRE>
-var http = require('http')
 var SendPhoneRequest = require('node-cti')
 
-var phoneRequest = new SendPhoneRequest({'hostname': 'myhost'}); 
+var phoneRequest = new SendPhoneRequest({'hostname': 'myhost'});
 
 var resultHandler = function(response) {
   console.log('RESPONSE CODE:' + response.statusCode)
@@ -45,5 +46,5 @@ var sendAccessCode = function(response) {
   }, 4000);
 }
 
-sendPhoneRequest.sendKey('Line1', doDial)
+phoneRequest.line(1, doDial)
 </PRE>
