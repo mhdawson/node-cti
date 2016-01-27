@@ -48,3 +48,7 @@ var sendAccessCode = function(response) {
 
 phoneRequest.line(1, doDial)
 </PRE>
+
+# Phones tested
+
+* Cisco SPA504G
